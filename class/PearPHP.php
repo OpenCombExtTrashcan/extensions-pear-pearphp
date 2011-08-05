@@ -11,7 +11,7 @@ class PearPHP extends Extension
 {
 	public function load()
 	{
-		set_include_path( get_include_path().DIRECTORY_SEPARATOR.dirname(__DIR__).'/lib' ) ;
+		set_include_path( get_include_path().PATH_SEPARATOR.dirname(__DIR__).'/lib' ) ;
 	}
 	
 }
